@@ -1,0 +1,20 @@
+#!/bin/bash
+#this is a comment.
+ 
+ #Required Declaration
+ echo "Hello World"
+ #prints the above statement in terminal
+ echo "What is your name?"
+ read name
+ echo "Welcome $name"
+ #prints out your name
+ echo "How do you do?"
+ read response
+ if [ "$response" = "good" ]
+ then
+      echo "Good to know"
+ #Uses if and prints above respons else does this
+ else
+      echo "Is it so?"
+ fi
+
